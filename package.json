@@ -1,0 +1,26 @@
+{
+  "name": "api-choose-your-own-adventure",
+  "version": "1.0.0",
+  "description": "Choose your own adventure to learn about API testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "testing",
+    "choose",
+    "your",
+    "own",
+    "adventure"
+  ],
+  "author": "Viv Richards (@11vlr)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
