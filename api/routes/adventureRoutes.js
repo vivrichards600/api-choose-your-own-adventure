@@ -2,11 +2,11 @@
 module.exports = function(app) {
     var adventure = require('../controllers/adventureController');
 
-    // adventure Routes
+    // default routes
     app.route('/')
         .get(adventure.welcome)
 
-    // adventure Routes
+    // start adventure
     app.route('/hello')
         .get(adventure.hello)
 };
